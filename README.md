@@ -40,10 +40,10 @@ page 32
   - Assertion.assertEquals(expected, actual, delta) 두 float or double이 delta 범위내에서 같은지 테스트
   - Assertion.assertNotNull(object) 객체가 null이 아닌지 테스트
 
-6. 2021.04.09 page
-  6.1 개방/폐쇄 원칙 (OCP)
-    - 코드 베이스의 유연성을 추가하고 유지보숳성을 개선하는데 도움을 주는 원칙
-    - 반복로직과 비즈니스 로직이 결합되어 분리하기가 어려워질때 ocp를 적용한다.
-    - 코드를 반복하는 경우
+6. 2021.04.09 page 55 
+    - 개방/폐쇄 원칙 (OCP)
+      - 코드 베이스의 유연성을 추가하고 유지보숳성을 개선하는데 도움을 주는 원칙
+      - 반복로직과 비즈니스 로직이 결합되어 분리하기가 어려워질때 ocp를 적용한다.
+      - 코드를 반복하는 경우
     
     
