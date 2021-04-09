@@ -1,6 +1,7 @@
 package com.realworddevelopment.chapter_02;
 
 import java.time.Month;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementProcessor {
@@ -52,5 +53,4 @@ public class BankStatementProcessor {
         }
         return total;
     }
-
 }
