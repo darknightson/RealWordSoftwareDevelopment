@@ -28,8 +28,13 @@ public class BankStatementAnalyzer {
         System.out.println("The total for transaction in January is " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
         System.out.println("The total for transaction in February is " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
         System.out.println("The total salary received is " + bankStatementProcessor.calculateTotalForCategory("Salary"));
+        // functionInterface
+        System.out.println("findTransactionGreaterThanEqual " + bankStatementProcessor.findTransactionGreaterThanEqual(1000));
+        System.out.println("findTransactionInMonth " + bankStatementProcessor.findTransactionInMonth(Month.FEBRUARY));
+        System.out.println("The function interface test " + bankStatementProcessor.findTransactionsGreaterThanEqualInMonth(Month.FEBRUARY,6_000));
 
-        System.out.println("The function interface test " + bankStatementProcessor.findTransactionsGreaterThanEqual(6_000));
+
+        //System.out.println("The summarizeTransaction " + bankStatementProcessor.summarizeTransaction());
 
     }
 }
