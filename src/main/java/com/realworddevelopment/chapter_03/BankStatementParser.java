@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface BankStatementParser {
 
-    BankTransaction parseFrom(String line);
-    List<BankTransaction> parseLinesFrom(List<String> lines);
+    BankTransaction parseFrom(String line) throws CSVSyntaxException;
+    List<BankTransaction> parseLinesFrom(List<String> lines) throws CSVSyntaxException;
 }
